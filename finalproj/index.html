@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <link rel="stylesheet" href="new.css">
+
+    </head>
+    <body>
+        <h1>
+            Registration Form
+        </h1>
+        <hr>
+        <h4>Enter Your Details</h4>
+        <?php
+        if($insert == true){
+        echo "<p class='submitMsg'>Thanks for submitting your form. We are happy to see you joining us for the US trip</p>";
+        }
+    ?>
+        <hr>
+        <div>
+
+            <form>
+                <div class="form_wrap">
+                  <div class="input_grp">
+                    <div class="input_wrap">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname">
+                    </div>
+                    <div class="input_wrap">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname">
+                    </div>
+                  </div>
+                  <div class="input_wrap">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email">
+                  </div>
+
+                  <div class="input_wrap">
+                    <label for="Gender">Gender</label>
+                    <input type="text" id="Gender">
+                  </div>
+
+
+
+
+
+
+
+
+                  <div class="input_wrap">
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                  </div>
+                  <div class="input_wrap">
+                    <label for="country">Country</label>
+                    <input type="text" id="country">
+                  </div>
+                  <div class="input_wrap">
+                    <input type="submit" value="Register Now" class="submit_btn">
+                  </div>
+                </div>
+                
+              </form>
+            <hr>
+            
+        </div>
+<!--INSERT INTO `details` (`sno`, `First_name`, `Last_name`, `email`, `gender`, `city`, `country`, `dt`) VALUES ('1', 'testname', 'xyz', 'xyz@gmail.com', 'male', 'Ponda', 'India', current_timestamp());-->
+    </body>
+</html>

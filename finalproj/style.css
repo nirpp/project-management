@@ -1,0 +1,11 @@
+.container{
+    max-width: 80%;
+    background-color: rgb(198, 152, 241);
+    padding: 34px;
+    margin:23px
+
+}
+.form{
+    margin:23px;
+    padding: 34px;
+}
